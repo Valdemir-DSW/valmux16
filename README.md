@@ -26,3 +26,5 @@ void loop() {
 ```
 Também é possível anexar o modulo ADC externo, por exemplo, o modo ADS-1115. Veja isso nos exemplos de como utilizar fonte ADC externa.
 
+<img width="260" height="248" alt="image" src="https://github.com/user-attachments/assets/465a2d15-b211-48a1-81b0-8a3d0dcd9b1a" />
+

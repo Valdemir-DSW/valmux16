@@ -28,7 +28,7 @@ void setup() {
   mux.setEnable(0, 6); // MUX 0 com Enable no pino 6
   mux.setEnable(1, 7); // MUX 1 com Enable no pino 7
 
-  // Define o pino ADC interno do Arduino que irá ler os sinais do MUX
+  // Define o pino ADC interno do Arduino que irá ler os sinais do MUX ( sim a saída de todos os multiplexadores é ligada no mesmo ponto )
   mux.setInternalAdcPin(A0);
 
   // Inicializa o MUX
@@ -60,7 +60,7 @@ void loop() {
 
   - setInternalAdcPin(pino): define qual pino do Arduino será usado para leitura analógica.
 
-  Dica: Se precisar ler vários canais rapidamente, use readLinear() em um loop ou crie funções auxiliares para mapear seus sensores.
+ 
 */
 
 ```
